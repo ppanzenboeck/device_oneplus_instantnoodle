@@ -5,4 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_instantnoodle.mk
+    $(LOCAL_DIR)/derp_instantnoodle.mk
+
+COMMON_LUNCH_CHOICES := \
+    derp_instantnoodle-user \
+    derp_instantnoodle-userdebug \
+    derp_instantnoodle-eng
